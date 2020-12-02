@@ -1,0 +1,8 @@
+aws:
+  secretsmanager:
+    name: nexus-apps/nexus-customer-engagement/member-sharecare-registration-kafka-stream
+    defaultContext: nexus-apps/commons
+cloud:
+  aws:
+    region:
+      static: us-east-1
